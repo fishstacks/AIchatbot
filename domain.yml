@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - help
+  - inform_site
+  - inform_anxiety
+  - inform_depression
+  - inform_stress
+
+
+responses:
+  utter_greet:
+  - text: "Hello! Welcome to Train Your Mind. How may I help you today?"
+
+  utter_goodbye:
+  - text: "Goodbye! Have a great day."
+
+  utter_thanks:
+  - text: "You're welcome! How else can I assist you?"
+
+  utter_help:
+  - text: "Sure, I'm here to help you with any questions you have. How can I assist you?"
+
+  utter_inform_site:
+  - text: "Train Your Mind is a platform that offers mental health resources and tools to help you manage your mental well-being. You can explore our site and check out our blog for more information."
+
+  utter_inform_anxiety:
+  - text: "Anxiety is a normal and often healthy emotion. However, when a person regularly feels disproportionate levels of anxiety, it might become a medical disorder. At Train Your Mind, we offer resources and tools to help you manage anxiety. You can check out our blog for more information."
+
+  utter_inform_depression:
+  - text: "Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. At Train Your Mind, we offer resources and tools to help you manage depression. You can check out our blog for more information."
+
+  utter_inform_stress:
+  - text: "Stress is a normal part of life and can be caused by a variety of factors, such as work, family, and health issues. At Train Your Mind, we offer resources and tools to help you manage stress. You can check out our blog for more information."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

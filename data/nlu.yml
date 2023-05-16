@@ -1,0 +1,56 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - welcome
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - ciao
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - appreciate it
+
+- intent: help
+  examples: |
+    - can you help me?
+    - I need help
+    - what can you help me with?
+    - what do you do?
+
+- intent: inform_site
+  examples: |
+    - what is Train Your Mind?
+    - tell me about Train Your Mind
+    - what services does Train Your Mind offer?
+
+- intent: inform_anxiety
+  examples: |
+    - what is anxiety?
+    - how can I manage anxiety?
+    - resources for anxiety
+
+- intent: inform_depression
+  examples: |
+    - what is depression?
+    - how can I manage depression?
+    - resources for depression
+
+- intent: inform_stress
+  examples: |
+    - what is stress?
+    - how can I manage stress?
+    - resources for stress

@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+
+- story: greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thank you
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- story: offer help
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: inform about site
+  steps:
+  - intent: inform_site
+  - action: utter_inform_site
+
+- story: inform about anxiety
+  steps:
+  - intent: inform_anxiety
+  - action: utter_inform_anxiety
+
+- story: inform about depression
+  steps:
+  - intent: inform_depression
+  - action: utter_inform_depression
+
+- story: inform about stress
+  steps:
+  - intent: inform_stress
+  - action: utter_inform_stress
